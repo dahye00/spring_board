@@ -1,4 +1,4 @@
-package com.dahye.spring_b;
+package com.dahye.spring_b.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
