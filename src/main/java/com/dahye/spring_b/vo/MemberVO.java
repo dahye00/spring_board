@@ -5,6 +5,7 @@ public class MemberVO {
 	private String id;
 	private String pw;
 	private String name;
+	private String phone;
 	private String create_at;
 	private String update_at;
 	
@@ -25,6 +26,12 @@ public class MemberVO {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 	public String getCreate_at() {
 		return create_at;
